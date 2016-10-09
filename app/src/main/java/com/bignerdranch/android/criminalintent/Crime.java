@@ -11,6 +11,7 @@ public class Crime {
     private String mTitle;
     private Date mDate;
     private boolean mSolved;
+    private String age;
 
 
     public Crime(){
@@ -46,5 +47,13 @@ public class Crime {
 
     public void setmTitle(String mTitle) {
         this.mTitle = mTitle;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
